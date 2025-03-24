@@ -1,0 +1,141 @@
+body{
+    background-image: url(download.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(78, 78, 78);
+}
+.thank{
+    background-color:#111;
+    color: aliceblue;
+    text-shadow: 0px 0px 20px rgb(253, 197, 177);
+}
+.topic{
+    background-color: #111;
+    
+}
+#dep{
+    color: aliceblue;
+    position:relative;
+    margin-left: 250px;
+    margin-top: -120px;
+    font-size: 50px;
+    text-shadow: 0px 0px 30px rgb(255, 138, 95),
+                 0px 0px 60px rgb(255, 138, 95);
+}
+.imagegif{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    margin-left: 0px;
+}
+nav{
+   
+    font-size: 50px;
+    
+    font-family:'Times New Roman', Times, serif;
+    position: relative;
+    margin-left: 90px;
+    margin-top: -10px;
+
+   
+}
+
+nav a:hover{
+    
+    text-shadow: 0px 0px 10px aqua,
+                0px 0px 20px aqua;
+
+    
+    
+}
+a{
+    color: rgb(255, 253, 253);
+    row-gap: 20px;
+    height: 200px; 
+    padding-left: 15px;
+    padding-right: 15px;
+    
+
+}
+a:hover{
+    color: aliceblue;
+    border-bottom-style:groove;
+    border-bottom-color: #fcfcfc;
+   border-bottom-width:03px;
+   border-end-end-radius: 20px;
+   border-start-start-radius: 20px;
+
+
+}
+
+
+
+marquee{
+    color: aqua;
+}
+/* this is box code */
+/* this is main page box*/
+.box{
+    border-style: groove; 
+    border-color: gray;
+    background-color: #d1d0d0;
+    height:420px ;
+    width: 300px; 
+    border-width: 10px;
+    border-radius: 15px;
+    
+}
+.box:hover{
+    
+    position:relative;
+   box-shadow: 0px 0px 10px rgb(110, 110, 110),
+                0px 0px 20px rgb(151, 151, 151),
+                0px 0px 30px rgb(124, 124, 124);
+   padding: 05PX;
+}
+
+.boxtext{
+    color: rgb(255, 200, 200);
+    text-decoration: none;
+    height: 30px;
+    width: 100px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+   
+    position: relative;
+    bottom: 20px;
+    padding: 05PX;
+    padding-top: 03PX;
+    
+}
+.boxtext:hover{
+    
+    box-shadow: 2px 5px 20px rgb(0, 255, 21);
+    background-color: rgb(10, 252, 30);
+    border-color: rgb(255, 255, 255);
+    padding: 08PX;
+    
+}
+
+.image{
+    border-bottom: #111;
+    border-radius: 0px;
+    background-color: #0ef;
+    height: 250px;
+    width: 300px;
+   
+    
+}
+
+section{
+    display:grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: repeat(3,100px);
+    gap: 400px 100px;
+    margin: 120px;
+    margin-left: 300px;
+    margin-top:100px ;
+}
