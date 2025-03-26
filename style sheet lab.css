@@ -182,4 +182,60 @@ body{
 }
 /* 
 this is a toc */
+/* this is a labmanual */
+
+@media screen and (max-width: 1200px) {
+    .labbox1, .labbox2, .labbox3, .labbox4, .labbox5 {
+        width: 250px;
+        height: 230px;
+    }
+    .subtopic {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .labbox1, .labbox2, .labbox3, .labbox4, .labbox5 {
+        width: 220px;
+        height: 200px;
+    }
+    .subtopic {
+        font-size: 35px;
+    }
+    .opentag {
+        width: 100px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .labbox1, .labbox2, .labbox3, .labbox4, .labbox5 {
+        width: 180px;
+        height: 160px;
+    }
+    .subtopic {
+        font-size: 30px;
+    }
+    .opentag {
+        width: 90px;
+        height: 35px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #topic {
+        font-size: 25px;
+    }
+    .subtopic {
+        font-size: 25px;
+    }
+    .labbox1, .labbox2, .labbox3, .labbox4, .labbox5 {
+        width: 150px;
+        height: 130px;
+    }
+    .opentag {
+        width: 80px;
+        height: 30px;
+    }
+}
 

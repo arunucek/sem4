@@ -190,3 +190,40 @@ body{
 /* 
 this is a toc */
 
+/* Responsive Design for Mobile and Tablets */
+@media screen and (max-width: 1024px) {
+    #section.labbox {
+        gap: 200px 50px;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+    .labbox {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #section.labbox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        margin: 20px;
+    }
+    .labbox {
+        width: 220px;
+        height: 220px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #section.labbox {
+        margin: 10px;
+        gap: 20px;
+    }
+    .labbox {
+        width: 180px;
+        height: 180px;
+    }
+}

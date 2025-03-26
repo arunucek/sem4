@@ -1,100 +1,90 @@
-body{
+.body {
     background-image: url(download.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgb(78, 78, 78);
 }
-.thank{
-    background-color:#111;
+
+.thank {
+    background-color: #111;
     color: aliceblue;
     text-shadow: 0px 0px 20px rgb(253, 197, 177);
 }
-.topic{
+
+.topic {
     background-color: #111;
-    
 }
-#dep{
-    color: aliceblue;
-    position:relative;
+
+#dep {
+    color: rgb(255, 255, 255);
+    position: relative;
     margin-left: 250px;
     margin-top: -120px;
     font-size: 50px;
     text-shadow: 0px 0px 30px rgb(255, 138, 95),
                  0px 0px 60px rgb(255, 138, 95);
 }
-.imagegif{
+
+.imagegif {
     position: relative;
     height: 200px;
     width: 200px;
     margin-left: 0px;
 }
-nav{
-   
+
+nav {
     font-size: 50px;
-    
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     position: relative;
     margin-left: 90px;
     margin-top: -10px;
-
-   
 }
 
-nav a:hover{
-    
-    text-shadow: 0px 0px 10px aqua,
-                0px 0px 20px aqua;
-
-    
-    
+nav a:hover {
+    text-shadow: 0px 0px 10px aqua, 0px 0px 20px aqua;
 }
-a{
+
+a {
     color: rgb(255, 253, 253);
     row-gap: 20px;
-    height: 200px; 
+    height: 200px;
     padding-left: 15px;
     padding-right: 15px;
-    
-
 }
-a:hover{
+
+a:hover {
     color: aliceblue;
-    border-bottom-style:groove;
+    border-bottom-style: groove;
     border-bottom-color: #fcfcfc;
-   border-bottom-width:03px;
-   border-end-end-radius: 20px;
-   border-start-start-radius: 20px;
-
-
+    border-bottom-width: 3px;
+    border-end-end-radius: 20px;
+    border-start-start-radius: 20px;
 }
 
-
-
-marquee{
+marquee {
     color: aqua;
 }
-/* this is box code */
-/* this is main page box*/
-.box{
-    border-style: groove; 
+
+/* Box styling */
+.box {
+    border-style: groove;
     border-color: gray;
     background-color: #d1d0d0;
-    height:420px ;
-    width: 300px; 
+    height: 420px;
+    width: 300px;
     border-width: 10px;
     border-radius: 15px;
-    
-}
-.box:hover{
-    
-    position:relative;
-   box-shadow: 0px 0px 10px rgb(110, 110, 110),
-                0px 0px 20px rgb(151, 151, 151),
-                0px 0px 30px rgb(124, 124, 124);
-   padding: 05PX;
 }
 
-.boxtext{
+.box:hover {
+    position: relative;
+    box-shadow: 0px 0px 10px rgb(110, 110, 110),
+                0px 0px 20px rgb(151, 151, 151),
+                0px 0px 30px rgb(124, 124, 124);
+    padding: 5px;
+}
+
+.boxtext {
     color: rgb(255, 200, 200);
     text-decoration: none;
     height: 30px;
@@ -104,38 +94,254 @@ marquee{
     border-color: rgb(0, 0, 0);
     background-color: rgb(0, 0, 0);
     border-radius: 15px;
-   
     position: relative;
     bottom: 20px;
-    padding: 05PX;
-    padding-top: 03PX;
-    
+    padding: 5px;
+    padding-top: 3px;
 }
-.boxtext:hover{
-    
+
+.boxtext:hover {
     box-shadow: 2px 5px 20px rgb(0, 255, 21);
     background-color: rgb(10, 252, 30);
     border-color: rgb(255, 255, 255);
-    padding: 08PX;
-    
+    padding: 8px;
 }
 
-.image{
+.image {
     border-bottom: #111;
     border-radius: 0px;
     background-color: #0ef;
     height: 250px;
     width: 300px;
-   
-    
+    object-fit: cover;
 }
 
-section{
-    display:grid;
-    grid-template-columns: 1fr 1fr ;
-    grid-template-rows: repeat(3,100px);
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 100px);
     gap: 400px 100px;
     margin: 120px;
     margin-left: 300px;
-    margin-top:100px ;
+    margin-top: 100px;
+}
+
+/* Media Queries for Responsive Design */
+.body {
+    background-image: url(download.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(78, 78, 78);
+}
+
+.thank {
+    background-color: #111;
+    color: aliceblue;
+    text-shadow: 0px 0px 20px rgb(253, 197, 177);
+}
+
+.topic {
+    background-color: #111;
+}
+
+#dep {
+    color: rgb(255, 255, 255);
+    position: relative;
+    margin-left: 250px;
+    margin-top: -120px;
+    font-size: 50px;
+    text-shadow: 0px 0px 30px rgb(255, 138, 95),
+                 0px 0px 60px rgb(255, 138, 95);
+}
+
+.imagegif {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    margin-left: 0px;
+}
+
+nav {
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    margin-left: 90px;
+    margin-top: -10px;
+}
+
+nav a:hover {
+    text-shadow: 0px 0px 10px aqua, 0px 0px 20px aqua;
+}
+
+a {
+    color: rgb(255, 253, 253);
+    row-gap: 20px;
+    height: 200px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+a:hover {
+    color: aliceblue;
+    border-bottom-style: groove;
+    border-bottom-color: #fcfcfc;
+    border-bottom-width: 3px;
+    border-end-end-radius: 20px;
+    border-start-start-radius: 20px;
+}
+
+marquee {
+    color: aqua;
+}
+
+/* Box styling */
+.box {
+    border-style: groove;
+    border-color: gray;
+    background-color: #d1d0d0;
+    height: 420px;
+    width: 300px;
+    border-width: 10px;
+    border-radius: 15px;
+}
+
+.box:hover {
+    position: relative;
+    box-shadow: 0px 0px 10px rgb(110, 110, 110),
+                0px 0px 20px rgb(151, 151, 151),
+                0px 0px 30px rgb(124, 124, 124);
+    padding: 5px;
+}
+
+.boxtext {
+    color: rgb(255, 200, 200);
+    text-decoration: none;
+    height: 30px;
+    width: 100px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    position: relative;
+    bottom: 20px;
+    padding: 5px;
+    padding-top: 3px;
+}
+
+.boxtext:hover {
+    box-shadow: 2px 5px 20px rgb(0, 255, 21);
+    background-color: rgb(10, 252, 30);
+    border-color: rgb(255, 255, 255);
+    padding: 8px;
+}
+
+.image {
+    border-bottom: #111;
+    border-radius: 0px;
+    background-color: #0ef;
+    height: 250px;
+    width: 300px;
+    object-fit: cover;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 100px);
+    gap: 400px 100px;
+    margin: 120px;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+
+/* Media Queries for Responsive Design */
+
+/* Tablets and smaller screens */
+@media screen and (max-width: 1024px) {
+    #dep {
+        font-size: 40px;
+        margin-left: 50px;
+        margin-top: -60px;
+    }
+    nav {
+        font-size: 30px;
+        margin-left: 20px;
+    }
+    .box {
+        width: 250px;
+        height: 350px;
+    }
+    .image {
+        height: 220px;
+        width: 250px;
+    }
+    section {
+        gap: 200px 50px;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+}
+
+/* Mobile screens */
+@media screen and (max-width: 768px) {
+    #dep {
+        font-size: 30px;
+        margin-left: 20px;
+        margin-top: -40px;
+    }
+    nav {
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    .box {
+        width: 200px;
+        height: 300px;
+    }
+    .boxtext{
+     
+        position: relative;
+        margin-top: -20px;
+    }
+    .image {
+        height: 180px;
+        width: 200px;
+    }
+    section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        margin: 20px;
+    }
+}
+
+/* Extra small devices (phones) */
+@media screen and (max-width: 480px) {
+    #dep {
+        font-size: 25px;
+        margin-left: 10px;
+        margin-top: -20px;
+    }
+    nav {
+        font-size: 18px;
+        margin-left: 5px;
+    }
+    .box {
+        width: 180px;
+        height: 280px;
+    }
+    .boxtext{
+     
+        position: relative;
+        margin-top: -20px;
+    }
+    .image {
+        height: 160px;
+        width: 180px;
+    }
+    section {
+        margin: 10px;
+        gap: 20px;
+    }
 }
